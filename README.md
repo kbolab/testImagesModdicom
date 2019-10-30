@@ -1,1 +1,1 @@
-# testImagesModdicom
+# Test images for Moddicom
