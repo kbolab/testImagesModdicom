@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file-format>
+<meta-header xfer="1.2.840.10008.1.2.1" name="Little Endian Explicit">
+<element tag="0002,0000" vr="UL" vm="1" len="4" name="FileMetaInformationGroupLength">190</element>
+<element tag="0002,0001" vr="OB" vm="1" len="2" name="FileMetaInformationVersion" binary="hidden"></element>
+<element tag="0002,0002" vr="UI" vm="1" len="26" name="MediaStorageSOPClassUID">1.2.840.10008.5.1.4.1.1.2</element>
+<element tag="0002,0003" vr="UI" vm="1" len="64" name="MediaStorageSOPInstanceUID">1.3.6.1.4.1.9590.100.1.2.388530860812551167602230212174143937742</element>
+<element tag="0002,0010" vr="UI" vm="1" len="18" name="TransferSyntaxUID">1.2.840.10008.1.2</element>
+<element tag="0002,0012" vr="UI" vm="1" len="16" name="ImplementationClassUID">1.2.40.0.13.1.1</element>
+<element tag="0002,0013" vr="SH" vm="1" len="12" name="ImplementationVersionName">dcm4che-2.0</element>
+</meta-header>
+<data-set xfer="1.2.840.10008.1.2" name="Little Endian Implicit">
+<element tag="0008,0008" vr="CS" vm="3" len="22" name="ImageType">ORIGINAL\PRIMARY\AXIAL</element>
+<element tag="0008,0012" vr="DA" vm="1" len="8" name="InstanceCreationDate">20160804</element>
+<element tag="0008,0013" vr="TM" vm="1" len="10" name="InstanceCreationTime">121903.999</element>
+<element tag="0008,0016" vr="UI" vm="1" len="26" name="SOPClassUID">1.2.840.10008.5.1.4.1.1.2</element>
+<element tag="0008,0018" vr="UI" vm="1" len="64" name="SOPInstanceUID">1.3.6.1.4.1.9590.100.1.2.388530860812551167602230212174143937742</element>
+<element tag="0008,0020" vr="DA" vm="0" len="0" name="StudyDate"></element>
+<element tag="0008,0030" vr="TM" vm="0" len="0" name="StudyTime"></element>
+<element tag="0008,0050" vr="SH" vm="0" len="0" name="AccessionNumber"></element>
+<element tag="0008,0060" vr="CS" vm="1" len="2" name="Modality">CT</element>
+<element tag="0008,0070" vr="LO" vm="1" len="10" name="Manufacturer">CMS, Inc.</element>
+<element tag="0008,0080" vr="LO" vm="1" len="4" name="InstitutionName">CERR</element>
+<element tag="0008,0090" vr="PN" vm="0" len="0" name="ReferringPhysicianName"></element>
+<element tag="0008,1010" vr="SH" vm="1" len="4" name="StationName">CERR</element>
+<element tag="0008,1090" vr="LO" vm="1" len="4" name="ManufacturerModelName">CERR</element>
+<element tag="0010,0010" vr="PN" vm="1" len="4" name="PatientName">PAT1</element>
+<element tag="0010,0020" vr="LO" vm="1" len="2" name="PatientID">1</element>
+<element tag="0010,0030" vr="DA" vm="0" len="0" name="PatientBirthDate"></element>
+<element tag="0010,0040" vr="CS" vm="0" len="0" name="PatientSex"></element>
+<element tag="0010,1030" vr="DS" vm="0" len="0" name="PatientWeight"></element>
+<element tag="0018,0050" vr="DS" vm="1" len="4" name="SliceThickness">3.0</element>
+<element tag="0018,0060" vr="DS" vm="0" len="0" name="KVP"></element>
+<element tag="0018,5100" vr="CS" vm="1" len="4" name="PatientPosition">HFS</element>
+<element tag="0020,000d" vr="UI" vm="1" len="64" name="StudyInstanceUID">1.3.6.1.4.1.9590.100.1.2.96328687310426543129572151154132284399</element>
+<element tag="0020,000e" vr="UI" vm="1" len="64" name="SeriesInstanceUID">1.3.6.1.4.1.9590.100.1.2.296658988911737913102339329841519593982</element>
+<element tag="0020,0010" vr="SH" vm="0" len="0" name="StudyID"></element>
+<element tag="0020,0011" vr="IS" vm="0" len="0" name="SeriesNumber"></element>
+<element tag="0020,0012" vr="IS" vm="0" len="0" name="AcquisitionNumber"></element>
+<element tag="0020,0013" vr="IS" vm="1" len="2" name="InstanceNumber">64</element>
+<element tag="0020,0032" vr="DS" vm="3" len="50" name="ImagePositionPatient">-174.39450073242\-79.625503540039\7.59999990463256</element>
+<element tag="0020,0037" vr="DS" vm="6" len="24" name="ImageOrientationPatient">1.0\0.0\0.0\0.0\1.0\0.0</element>
+<element tag="0020,0052" vr="UI" vm="1" len="64" name="FrameOfReferenceUID">1.3.6.1.4.1.9590.100.1.2.43753750011518494101799896492065629048</element>
+<element tag="0020,1040" vr="LO" vm="0" len="0" name="PositionReferenceIndicator"></element>
+<element tag="0028,0002" vr="US" vm="1" len="2" name="SamplesPerPixel">1</element>
+<element tag="0028,0004" vr="CS" vm="1" len="12" name="PhotometricInterpretation">MONOCHROME2</element>
+<element tag="0028,0010" vr="US" vm="1" len="2" name="Rows">201</element>
+<element tag="0028,0011" vr="US" vm="1" len="2" name="Columns">204</element>
+<element tag="0028,0030" vr="DS" vm="2" len="34" name="PixelSpacing">0.97699999809265\0.97699999809265</element>
+<element tag="0028,0100" vr="US" vm="1" len="2" name="BitsAllocated">16</element>
+<element tag="0028,0101" vr="US" vm="1" len="2" name="BitsStored">12</element>
+<element tag="0028,0102" vr="US" vm="1" len="2" name="HighBit">11</element>
+<element tag="0028,0103" vr="US" vm="1" len="2" name="PixelRepresentation">0</element>
+<element tag="0028,1052" vr="DS" vm="1" len="8" name="RescaleIntercept">-1000.0</element>
+<element tag="0028,1053" vr="DS" vm="1" len="4" name="RescaleSlope">1.0</element>
+<element tag="7fe0,0010" vr="OW" vm="1" len="82008" name="PixelData" binary="hidden"></element>
+</data-set>
+</file-format>
